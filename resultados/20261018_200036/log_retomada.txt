@@ -1,0 +1,31 @@
+Retomando resultados\20261018_200036: 14 execuções já concluídas, 26 pendentes.
+[15/40] C1 execução 3 (semente 2003)
+[16/40] C3 execução 5 (semente 4005)
+[17/40] C3 execução 6 (semente 4006)
+[18/40] C2 execução 7 (semente 3007)
+[19/40] C1 execução 4 (semente 2004)
+[20/40] C2 execução 3 (semente 3003)
+[21/40] C2 execução 1 (semente 3001)
+[22/40] C3 execução 2 (semente 4002)
+[23/40] C3 execução 8 (semente 4008)
+[24/40] C2 execução 10 (semente 3010)
+[25/40] C1 execução 10 (semente 2010)
+[26/40] C1 execução 7 (semente 2007)
+[27/40] C3 execução 10 (semente 4010)
+[28/40] C3 execução 4 (semente 4004)
+[29/40] C0 execução 3 (semente 1003)
+[30/40] C0 execução 1 (semente 1001)
+[31/40] C3 execução 9 (semente 4009)
+[32/40] C2 execução 8 (semente 3008)
+[33/40] C0 execução 6 (semente 1006)
+[34/40] C0 execução 7 (semente 1007)
+[35/40] C0 execução 9 (semente 1009)
+[36/40] C1 execução 5 (semente 2005)
+[37/40] C1 execução 6 (semente 2006)
+[38/40] C1 execução 8 (semente 2008)
+[39/40] C0 execução 2 (semente 1002)
+[40/40] C0 execução 8 (semente 1008)
+
+Concluído. Arquivos em resultados\20261018_200036/
+Próximo passo: preencher as colunas m2_causa e m3_acao em classificacao.csv e rodar:
+  python experimento.py resumir resultados\20261018_200036\classificacao.csv

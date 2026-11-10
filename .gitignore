@@ -1,0 +1,18 @@
+# Repositório publica apenas o código e a rodada real do experimento.
+# Tudo é ignorado por padrão; os itens abaixo com "!" são incluídos.
+/*
+!/.gitignore
+!/README.md
+!/experimento.py
+!/requirements.txt
+!/resultados/
+
+/resultados/*
+!/resultados/20261018_200036/
+/resultados/20261018_200036/*_backup.csv
+*.err
+
+# Segredos e ambiente local
+.env
+__pycache__/
+.venv/

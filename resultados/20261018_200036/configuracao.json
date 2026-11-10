@@ -1,0 +1,17 @@
+{
+  "modelo": "gemini-3.8-flash",
+  "temperatura": 0.2,
+  "execucoes_por_cenario": 10,
+  "janelas_normais": 5,
+  "volume_minimo": 500,
+  "taxa_erro_maxima": 5.0,
+  "prompt_sistema": "Você é um Engenheiro de Confiabilidade de Dados (SRE) responsável por um pipeline de ingestão de transações. Analise a série temporal de métricas operacionais e diga se há falha no pipeline. Se houver, identifique a causa raiz mais provável e sugira uma ação corretiva. Se não houver falha, informe falha_detectada como false. Informe também seu grau de confiança no diagnóstico, de 0 a 100.",
+  "descricao_campos": "Campos de cada janela: timestamp; volume_registros (registros processados na janela); taxa_erros_percentual (registros rejeitados pelo parser, em %); schema_versao (versão do esquema recebido da origem); valor_medio_transacao (valor médio das transações, em reais; null quando não há registros processados).",
+  "modo_seco": false,
+  "sessoes": [
+    {
+      "inicio": "2026-10-18T20:15:02",
+      "ja_concluidas": 14
+    }
+  ]
+}
