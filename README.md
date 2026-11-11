@@ -1,4 +1,4 @@
-# Agentes de IA no diagnóstico de falhas em pipelines de dados
+# Uso de um agente de IA baseado em LLM para diagnóstico de falhas em pipelines de dados
 
 Código e dados do experimento do TCC II (Bacharelado em Engenharia de Software, Univille). O experimento compara um monitor de regras estáticas com um agente baseado em LLM (Gemini 3.8 Flash) no diagnóstico de causa raiz de falhas em um pipeline de dados sintético.
 
